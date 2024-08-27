@@ -2,7 +2,7 @@ from sklearn.datasets import load_iris
 import numpy as np
 from src.functions import generate_randomly_missing
 from sklearn.model_selection import train_test_split
-from src.WMLDA import WLDA
+from src.WLDA import WLDA
 
 iris = load_iris()
 X, y = iris.data, iris.target
