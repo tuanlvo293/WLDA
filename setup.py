@@ -12,6 +12,5 @@ setup(
     description='A Python library for Weighted Linear Discriminant Analysis (WLDA)',
     author='Tuan L. Vo',
     author_email='tuanlvo293@gmail.com',
-    url='https://github.com/tuanlvo293/WLDA.git'',
-    license='MIT',
+    url='https://github.com/tuanlvo293/WLDA',
 )
