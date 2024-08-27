@@ -7,10 +7,7 @@ setup(
     url='https://github.com/tuanlvo293/WLDA.git',
          author='Tuan L. Vo',
          author_email='tuanlvo293@gmail.com',
-   
     package_dir={"": "src"},
-    install_requires=requirements,
-
     keywords='python package',
     python_requires='>=3.6',
 )
