@@ -7,8 +7,7 @@ setup(
     url='https://github.com/tuanlvo293/WLDA.git',
     author='Tuan L. Vo',
     author_email='tuanlvo293@gmail.com',
-    py_modules=['WLDA'],  # Chỉ định module WLDA.py
-    package_dir={'': 'src'},  # Chỉ định thư mục chứa module là "src"
+    package_dir={'': 'src'},  # Chỉ định thư mục chứa module là "src",
     keywords='python package',
     python_requires='>=3.6',
     install_requires=[
