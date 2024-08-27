@@ -5,6 +5,7 @@ setup(
     version='0.1',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
+    include_package_data=True,  # Thêm dòng này nếu bạn có dữ liệu bổ sung cần bao gồm
     install_requires=[
         'numpy',
         'scikit-learn',
