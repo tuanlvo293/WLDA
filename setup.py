@@ -1,18 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='WMLDA',
-    version='0.1',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
-    include_package_data=True,  # Thêm dòng này nếu bạn có dữ liệu bổ sung cần bao gồm
-    install_requires=[
-        'numpy',
-        'scikit-learn',
-    ],
-    description='A Python library for Weighted Linear Discriminant Analysis (WLDA)',
-    author='Tuan L. Vo',
-    author_email='tuanlvo293@gmail.com',
-    url='https://github.com/tuanlvo293/WLDA',
-    license='MIT',
+    name='WLDA',
+    version='0.1.0',
+    description='My awesome WLDA package',
+    url='https://github.com/tuanlvo293/WLDA.git',
+         author='Tuan L. Vo',
+         author_email='tuanlvo293@gmail.com',
+   
+    package_dir={"": "src"},
+    install_requires=requirements,
+
+    keywords='python package',
+    python_requires='>=3.6',
 )
