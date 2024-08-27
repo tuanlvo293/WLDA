@@ -1,5 +1,5 @@
 import numpy as np
-from .functions import solving
+from functions import solving
 
 def sig_estimate(f1,f2):
     """
