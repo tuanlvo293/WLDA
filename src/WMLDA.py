@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.linalg import inv
-from .dpers import DPERm
+from dpers import DPERm
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.metrics import accuracy_score
 
