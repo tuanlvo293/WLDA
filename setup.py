@@ -5,9 +5,14 @@ setup(
     version='0.1.0',
     description='My awesome WLDA package',
     url='https://github.com/tuanlvo293/WLDA.git',
-         author='Tuan L. Vo',
-         author_email='tuanlvo293@gmail.com',
-    package_dir={"": "src"},
+    author='Tuan L. Vo',
+    author_email='tuanlvo293@gmail.com',
+    package_dir={"": "src"},  # Chỉ định thư mục gốc của các package là "src"
+    packages=find_packages(where="src"),  # Tìm các package trong thư mục "src"
     keywords='python package',
     python_requires='>=3.6',
+    install_requires=[
+        'numpy',  # Thêm các thư viện phụ thuộc nếu có
+        'scikit-learn',
+    ],
 )
