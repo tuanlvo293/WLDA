@@ -13,4 +13,5 @@ setup(
     author='Tuan L. Vo',
     author_email='tuanlvo293@gmail.com',
     url='https://github.com/tuanlvo293/WLDA',
+    license='MIT',
 )
